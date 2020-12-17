@@ -1,5 +1,5 @@
 # Metal-crack-detection
-A Mobilenet pipeline for detecting irregularities on metal surfaces
+A Mobilenet pipeline for detecting irregularities and defects on metal surfaces
 
 MODEL TRAINING GUIDE
 
