@@ -117,47 +117,36 @@ for item in pos_train_data:
     n = n+1
     dest = get+"/img/train/positive/"+str(n)+".jpg"
     copyfile(item,dest)                
-#         f.write("%s\n" % item)
 
-# with open('positive_test.txt', 'w') as f:
 n=0
 for item in pos_test_data:
     n = n+1
     dest = get+"/img/test/positive/"+str(n)+".jpg"
     copyfile(item,dest)
-#         f.write("%s\n" % item)
 
-# with open('positive_valid.txt', 'w') as f:
 n=0
 for item in pos_valid_data:
     n = n+1
     dest = get+"/img/valid/positive/"+str(n)+".jpg"
     copyfile(item,dest)
-#         f.write("%s\n" % item)
 
-# with open('negative_training.txt', 'w') as f:
 n=0
 for item in neg_train_data:
     n = n+1
     dest = get+"/img/train/negative/"+str(n)+".jpg"
     copyfile(item,dest)
-#         f.write("%s\n" % item)
 
-# with open('negative_test.txt', 'w') as f:
 n=0
 for item in neg_test_data:
     n = n+1
     dest = get+"/img/test/negative/"+str(n)+".jpg"
     copyfile(item,dest)
-#         f.write("%s\n" % item)
 
-# with open('negative_valid.txt', 'w') as f:
 n=0
 for item in neg_valid_data:
     n = n+1
     dest = get+"/img/valid/negative/"+str(n)+".jpg"
     copyfile(item,dest)
-#         f.write("%s\n" % item)
 # _______________________________________________________________________________________________________
 
 #importing libraries
